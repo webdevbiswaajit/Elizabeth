@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- =============Roboto font================ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,700&family=Titillium+Web:ital,wght@0,400;0,600;0,700;1,400&family=Zilla+Slab:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- =============Roboto font================ -->
+    <!-- =========Coustom-css============== -->
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- =========Coustom-css============== -->
+    <title>Dashboard</title>
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="nav_area">
+                <div class="nav_element">
+                    <div class="logo_area">
+                        <a href="#">
+                            <img src="./img/logo.png" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="menu_item">
+                        <div class="hamburger_icon">
+                            <button id="toggle">
+                                <iconify-icon icon="gg:menu"></iconify-icon>
+                            </button>
+                        </div>
+                        <div class="user_info">
+                            <div class="admin_info">
+                                <h3>Hon. JoBeth L. Coleby-Davis</h3>
+                                <small>Admin</small>
+                            </div>
+
+                            <div class="avatar">
+                                <a href="#"><img src="./img/avatar.jpg" alt=""></a>
+                            </div>
+                            <div class="message">
+                                <div class="message_icon">
+                                    <iconify-icon icon="ep:message"></iconify-icon>
+                                    <div class="message_number">
+                                        <span>1</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- ==========Header-end==== -->
+    <main>
+        <section>
+
+            <div class="dashboard_area">
+                <div id="dashboard_left">
+                    <div class="desh_menu">
+                        <a href="#">
+                            <div class="item_link">
+                                <div class="icone">
+                                    <iconify-icon icon="bi:speedometer2"></iconify-icon>
+                                    <div class="link_name">
+                                        <span class="h_link">Dashboard</span>
+                                    </div>
+                                </div>
+                                <div class="arrow">
+                                    <span class="show_arrow">
+                                        <iconify-icon icon="ep:arrow-right-bold"></iconify-icon>
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="item_link">
+                                <div class="icone">
+                                    <iconify-icon icon="bxs:user"></iconify-icon>
+                                    <div class="link_name">
+                                        <span class="h_link">User</span>
+                                    </div>
+                                </div>
+                                <div class="arrow">
+                                    <span class="show_arrow">
+                                        <iconify-icon icon="ep:arrow-right-bold"></iconify-icon>
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="item_link">
+                                <div class="icone">
+                                    <iconify-icon icon="bxs:user-detail"></iconify-icon>
+                                    <div class="link_name">
+                                        <span class="h_link">Blog</span>
+                                    </div>
+                                </div>
+                                <div class="arrow">
+                                    <span class="show_arrow">
+                                        <iconify-icon icon="ep:arrow-right-bold"></iconify-icon>
+                                    </span>
+
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="item_link">
+                                <div class="icone">
+                                    <iconify-icon icon="ep:message"></iconify-icon>
+                                    <div class="link_name">
+                                        <span class="h_link">Message</span>
+                                    </div>
+                                </div>
+                                <div class="arrow">
+                                    <span class="show_arrow">
+                                        <iconify-icon icon="ep:arrow-right-bold"></iconify-icon>
+                                    </span>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="dashbord_middel"></div>
+                <div class="dashboard_right">
+                    <div class="dashboard_content">
+                        <div class="user_text">
+                            <h2>User</h2>
+                        </div>
+                        <div class="search-form">
+                            <form action="">
+                                <div class="search_box">
+                                    <div class="search_input">
+                                        <input type="text" placeholder="Search">
+                                    </div>
+                                    <div class="submit_btn">
+                                        <button>Search</button>
+                                    </div>
+                                </div>
+
+                            </form>
+                        </div>
+
+                        <div class="data_table">
+                            <table>
+                                <tr>
+                                    <th>
+                                        <input type="checkbox">
+                                    </th>
+                                    <th>User</th>
+                                    <td></td>
+                                    <th>Email</th>
+                                    <th>Phone</th>
+                                    <th>NIB</th>
+                                    <th>Action</th>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>
+                                        <div class="user_img">
+                                            <img src="./img/avatar.jpg" alt="">
+                                        </div>
+                                    </td>
+                                    <td>Ishtiuq Ahmed Chowhdury</td>
+                                    <td>ahmedishtiuq@gmail.com</td>
+                                    <td>+880 1674 668 544</td>
+                                    <td>7605300675088</td>
+                                    <td>
+                                        <div class="action_btn">
+                                            <div class="view">
+                                                <iconify-icon icon="carbon:view-filled"></iconify-icon>
+                                            </div>
+                                            <div class="edit">
+                                                <iconify-icon icon="clarity:note-edit-solid"></iconify-icon>
+                                            </div>
+                                            <div class="delete">
+                                                <iconify-icon icon="ep:delete-filled"></iconify-icon>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>
+                                        <div class="user_img">
+                                            <img src="./img/avatar.jpg" alt="">
+                                        </div>
+                                    </td>
+                                    <td>Ishtiuq Ahmed Chowhdury</td>
+                                    <td>ahmedishtiuq@gmail.com</td>
+                                    <td>+880 1674 668 544</td>
+                                    <td>7605300675088</td>
+                                    <td>
+                                        <div class="action_btn">
+                                            <div class="view">
+                                                <a href="view.html">
+                                                    <iconify-icon icon="carbon:view-filled"></iconify-icon>
+                                                </a>
+                                            </div>
+                                            <div class="edit">
+                                                <iconify-icon icon="clarity:note-edit-solid"></iconify-icon>
+                                            </div>
+                                            <div class="delete">
+                                                <iconify-icon icon="ep:delete-filled"></iconify-icon>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>
+                                        <div class="user_img">
+                                            <img src="./img/avatar.jpg" alt="">
+                                        </div>
+                                    </td>
+                                    <td>Ishtiuq Ahmed Chowhdury</td>
+                                    <td>ahmedishtiuq@gmail.com</td>
+                                    <td>+880 1674 668 544</td>
+                                    <td>7605300675088</td>
+                                    <td>
+                                        <div class="action_btn">
+                                            <div class="view">
+                                                <iconify-icon icon="carbon:view-filled"></iconify-icon>
+                                            </div>
+                                            <div class="edit">
+                                                <iconify-icon icon="clarity:note-edit-solid"></iconify-icon>
+                                            </div>
+                                            <div class="delete">
+                                                <iconify-icon icon="ep:delete-filled"></iconify-icon>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>
+                                        <div class="user_img">
+                                            <img src="./img/avatar.jpg" alt="">
+                                        </div>
+                                    </td>
+                                    <td>Ishtiuq Ahmed Chowhdury</td>
+                                    <td>ahmedishtiuq@gmail.com</td>
+                                    <td>+880 1674 668 544</td>
+                                    <td>7605300675088</td>
+                                    <td>
+                                        <div class="action_btn">
+                                            <div class="view">
+                                                <iconify-icon icon="carbon:view-filled"></iconify-icon>
+                                            </div>
+                                            <div class="edit">
+                                                <iconify-icon icon="clarity:note-edit-solid"></iconify-icon>
+                                            </div>
+                                            <div class="delete">
+                                                <iconify-icon icon="ep:delete-filled"></iconify-icon>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>
+                                        <div class="user_img">
+                                            <img src="./img/avatar.jpg" alt="">
+                                        </div>
+                                    </td>
+                                    <td>Ishtiuq Ahmed Chowhdury</td>
+                                    <td>ahmedishtiuq@gmail.com</td>
+                                    <td>+880 1674 668 544</td>
+                                    <td>7605300675088</td>
+                                    <td>
+                                        <div class="action_btn">
+                                            <div class="view">
+                                                <iconify-icon icon="carbon:view-filled"></iconify-icon>
+                                            </div>
+                                            <div class="edit">
+                                                <iconify-icon icon="clarity:note-edit-solid"></iconify-icon>
+                                            </div>
+                                            <div class="delete">
+                                                <iconify-icon icon="ep:delete-filled"></iconify-icon>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>
+                                        <div class="user_img">
+                                            <img src="./img/avatar.jpg" alt="">
+                                        </div>
+                                    </td>
+                                    <td>Ishtiuq Ahmed Chowhdury</td>
+                                    <td>ahmedishtiuq@gmail.com</td>
+                                    <td>+880 1674 668 544</td>
+                                    <td>7605300675088</td>
+                                    <td>
+                                        <div class="action_btn">
+                                            <div class="view">
+                                                <iconify-icon icon="carbon:view-filled"></iconify-icon>
+                                            </div>
+                                            <div class="edit">
+                                                <iconify-icon icon="clarity:note-edit-solid"></iconify-icon>
+                                            </div>
+                                            <div class="delete">
+                                                <iconify-icon icon="ep:delete-filled"></iconify-icon>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>
+                                        <div class="user_img">
+                                            <img src="./img/avatar.jpg" alt="">
+                                        </div>
+                                    </td>
+                                    <td>Ishtiuq Ahmed Chowhdury</td>
+                                    <td>ahmedishtiuq@gmail.com</td>
+                                    <td>+880 1674 668 544</td>
+                                    <td>7605300675088</td>
+                                    <td>
+                                        <div class="action_btn">
+                                            <div class="view">
+                                                <iconify-icon icon="carbon:view-filled"></iconify-icon>
+                                            </div>
+                                            <div class="edit">
+                                                <iconify-icon icon="clarity:note-edit-solid"></iconify-icon>
+                                            </div>
+                                            <div class="delete">
+                                                <iconify-icon icon="ep:delete-filled"></iconify-icon>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>
+                                        <div class="user_img">
+                                            <img src="./img/avatar.jpg" alt="">
+                                        </div>
+                                    </td>
+                                    <td>Ishtiuq Ahmed Chowhdury</td>
+                                    <td>ahmedishtiuq@gmail.com</td>
+                                    <td>+880 1674 668 544</td>
+                                    <td>7605300675088</td>
+                                    <td>
+                                        <div class="action_btn">
+                                            <div class="view">
+                                                <iconify-icon icon="carbon:view-filled"></iconify-icon>
+                                            </div>
+                                            <div class="edit">
+                                                <iconify-icon icon="clarity:note-edit-solid"></iconify-icon>
+                                            </div>
+                                            <div class="delete">
+                                                <iconify-icon icon="ep:delete-filled"></iconify-icon>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>
+                                        <div class="user_img">
+                                            <img src="./img/avatar.jpg" alt="">
+                                        </div>
+                                    </td>
+                                    <td>Ishtiuq Ahmed Chowhdury</td>
+                                    <td>ahmedishtiuq@gmail.com</td>
+                                    <td>+880 1674 668 544</td>
+                                    <td>7605300675088</td>
+                                    <td>
+                                        <div class="action_btn">
+                                            <div class="view">
+                                                <iconify-icon icon="carbon:view-filled"></iconify-icon>
+                                            </div>
+                                            <div class="edit">
+                                                <iconify-icon icon="clarity:note-edit-solid"></iconify-icon>
+                                            </div>
+                                            <div class="delete">
+                                                <iconify-icon icon="ep:delete-filled"></iconify-icon>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>
+                                        <div class="user_img">
+                                            <img src="./img/avatar.jpg" alt="">
+                                        </div>
+                                    </td>
+                                    <td>Ishtiuq Ahmed Chowhdury</td>
+                                    <td>ahmedishtiuq@gmail.com</td>
+                                    <td>+880 1674 668 544</td>
+                                    <td>7605300675088</td>
+                                    <td>
+                                        <div class="action_btn">
+                                            <div class="view">
+                                                <iconify-icon icon="carbon:view-filled"></iconify-icon>
+                                            </div>
+                                            <div class="edit">
+                                                <iconify-icon icon="clarity:note-edit-solid"></iconify-icon>
+                                            </div>
+                                            <div class="delete">
+                                                <iconify-icon icon="ep:delete-filled"></iconify-icon>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>
+                                        <div class="user_img">
+                                            <img src="./img/avatar.jpg" alt="">
+                                        </div>
+                                    </td>
+                                    <td>Ishtiuq Ahmed Chowhdury</td>
+                                    <td>ahmedishtiuq@gmail.com</td>
+                                    <td>+880 1674 668 544</td>
+                                    <td>7605300675088</td>
+                                    <td>
+                                        <div class="action_btn">
+                                            <div class="view">
+                                                <iconify-icon icon="carbon:view-filled"></iconify-icon>
+                                            </div>
+                                            <div class="edit">
+                                                <iconify-icon icon="clarity:note-edit-solid"></iconify-icon>
+                                            </div>
+                                            <div class="delete">
+                                                <iconify-icon icon="ep:delete-filled"></iconify-icon>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>
+                                        <div class="user_img">
+                                            <img src="./img/avatar.jpg" alt="">
+                                        </div>
+                                    </td>
+                                    <td>Ishtiuq Ahmed Chowhdury</td>
+                                    <td>ahmedishtiuq@gmail.com</td>
+                                    <td>+880 1674 668 544</td>
+                                    <td>7605300675088</td>
+                                    <td>
+                                        <div class="action_btn">
+                                            <div class="view">
+                                                <iconify-icon icon="carbon:view-filled"></iconify-icon>
+                                            </div>
+                                            <div class="edit">
+                                                <iconify-icon icon="clarity:note-edit-solid"></iconify-icon>
+                                            </div>
+                                            <div class="delete">
+                                                <iconify-icon icon="ep:delete-filled"></iconify-icon>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+
+
+                            </table>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
+    <script src="./js/jquary..js"></script>
+    <script src="js/custom.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#toggle").click(function () {
+                $(".h_link").toggle();
+            });
+        });
+        $(document).ready(function () {
+            $("#toggle").click(function () {
+                $(".show_arrow").toggle();
+            });
+        });
+    </script>
+</body>
+
+</html>
