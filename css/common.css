@@ -152,15 +152,14 @@ a {
     padding-top: 30px;
     width: 230px;
     background: linear-gradient(95.29deg, #11998E -5.97%, #0077B6 107.73%);
-    transition: .15s all ease;
-    -webkit-transition: .15s all ease;
-    -moz-transition: .15s all ease;
-    -ms-transition: .15s all ease;
-    -o-transition: .15s all ease;
+    transition: .5s all ease;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    -ms-transition: .5s all ease;
+    -o-transition: .5s all ease;
     position: fixed;
     top: 90px;
     bottom: 0;
-
 }
 
 .h_link {
@@ -249,12 +248,31 @@ a {
 
 /* ===========SideBar End================ */
 /* =============dashboard-right-start=============== */
+.dashbord_middel {
+    width: 270px;
+    transition: .5s all ease;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    -ms-transition: .5s all ease;
+    -o-transition: .5s all ease;
+}
+
+#middle_none.vanice {
+    width: 80px;
+    transition: .5s all ease;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    -ms-transition: .5s all ease;
+    -o-transition: .5s all ease;
+}
+
 .dashboard_right {
-    width: 90%;
+    width: 80%;
     background: #F5F5F5;
     padding-bottom: 50px;
 
 }
+
 
 .dashboard_content {
     width: 95%;

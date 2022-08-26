@@ -130,7 +130,7 @@ table {
 .edit,
 .delete {
 
-    padding: 3px 5px;
+    padding: 5px 5px;
     border-radius: 2px;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
@@ -182,7 +182,7 @@ tr td {
 }
 
 tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: #CAF0F8;
 }
 
 .action_btn {
