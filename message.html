@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- =============Roboto font================ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,700&family=Titillium+Web:ital,wght@0,400;0,600;0,700;1,400&family=Zilla+Slab:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- =============Roboto font================ -->
+    <!-- =========Coustom-css============== -->
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/message.css">
+    <!-- =========Coustom-css============== -->
+    <title>Dashboard</title>
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="nav_area">
+                <div class="nav_element">
+                    <div class="logo_area">
+                        <a href="#">
+                            <img src="./img/logo.png" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="menu_item">
+                        <div class="hamburger_icon">
+                            <button id="toggle">
+                                <iconify-icon icon="gg:menu"></iconify-icon>
+                            </button>
+                        </div>
+                        <div class="user_info">
+                            <div class="admin_info">
+                                <h3>Hon. JoBeth L. Coleby-Davis</h3>
+                                <small>Admin</small>
+                            </div>
+
+                            <div class="avatar">
+                                <a href="#"><img src="./img/avatar.jpg" alt=""></a>
+                            </div>
+                            <div class="message">
+                                <div class="message_icon">
+                                    <iconify-icon icon="ep:message"></iconify-icon>
+                                    <div class="message_number">
+                                        <span>1</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- ==========Header-end==== -->
+    <main>
+        <section>
+            <div id="dashboard_left">
+                <div class="desh_menu">
+                    <a href="./index.html">
+                        <div class="item_link">
+                            <div class="icone">
+                                <iconify-icon icon="bi:speedometer2"></iconify-icon>
+                                <div class="link_name">
+                                    <span class="h_link">Dashboard</span>
+                                </div>
+                            </div>
+                            <div class="arrow">
+                                <span class="show_arrow">
+                                    <iconify-icon icon="ep:arrow-right-bold"></iconify-icon>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="item_link">
+                            <div class="icone">
+                                <iconify-icon icon="bxs:user"></iconify-icon>
+                                <div class="link_name">
+                                    <span class="h_link">User</span>
+                                </div>
+                            </div>
+                            <div class="arrow">
+                                <span class="show_arrow">
+                                    <iconify-icon icon="ep:arrow-right-bold"></iconify-icon>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="item_link">
+                            <div class="icone">
+                                <iconify-icon icon="bxs:user-detail"></iconify-icon>
+                                <div class="link_name">
+                                    <span class="h_link">Blog</span>
+                                </div>
+                            </div>
+                            <div class="arrow">
+                                <span class="show_arrow">
+                                    <iconify-icon icon="ep:arrow-right-bold"></iconify-icon>
+                                </span>
+
+                            </div>
+                        </div>
+                    </a>
+                    <a href="./message.html">
+                        <div class="item_link">
+                            <div class="icone">
+                                <iconify-icon icon="ep:message"></iconify-icon>
+                                <div class="link_name">
+                                    <span class="h_link">Message</span>
+                                </div>
+                            </div>
+                            <div class="arrow">
+                                <span class="show_arrow">
+                                    <iconify-icon icon="ep:arrow-right-bold"></iconify-icon>
+                                </span>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="dashboard_area">
+                <div class="dashbord_middel" id="middle_none"></div>
+                <div class="dashboard_right">
+
+                    <div class="dashboard_content">
+                        <div class="message_head">
+                            <div class="msg_left">
+                                <div class="pro_pic">
+                                    <img src="./img/propic.jpg" alt="">
+                                </div>
+                                <div class="pro_info">
+                                    <h3>Ishtiuq Ahmed Chowhdury</h3>
+                                    <small>Online</small>
+                                </div>
+                            </div>
+                            <div class="msg_right">
+                                <button id="msg_search">
+                                    <iconify-icon icon="akar-icons:search"></iconify-icon>
+                                </button>
+                                <button id="report_info">
+                                    <iconify-icon icon="ant-design:info-circle-outlined"></iconify-icon>
+                                </button>
+                                <button id="msg_menu">
+                                    <iconify-icon icon="charm:menu-kebab"></iconify-icon>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="message_box">
+                            <div class="give_msg">
+
+                                <div class="msg_pic">
+                                    <img src="./img/propic.jpg" alt="">
+                                    <div class="give_text">
+                                        <div class="converson">
+                                            <p>Good morning</p>
+                                        </div>
+                                        <div class="give_msg_time">
+                                            <p><span>12</span> <span>June at</span> <span>07:00 AM</span>
+                                            </p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="replay_msg">
+                                <div class="relay_text">
+                                    <div class="replay_msg_time">
+                                        <p><span>12</span> <span>June at</span> <span>07:00 AM</span>
+                                        </p>
+                                    </div>
+                                    <div class="relay_converson">
+                                        <p>Good morning, How are you? What about our next meeting?</p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="give_msg">
+
+                                <div class="msg_pic">
+                                    <img src="./img/propic.jpg" alt="">
+                                    <div class="give_text">
+                                        <div class="converson">
+                                            <p>Good morning</p>
+                                        </div>
+                                        <div class="give_msg_time">
+                                            <p><span>12</span> <span>June at</span> <span>07:00 AM</span>
+                                            </p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="replay_msg">
+                                <div class="relay_text">
+                                    <div class="replay_msg_time">
+                                        <p><span>12</span> <span>June at</span> <span>07:00 AM</span>
+                                        </p>
+                                    </div>
+                                    <div class="relay_converson">
+                                        <p>Good morning, How are you? What about our next meeting?</p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
+    <script src="./js/jquary..js"></script>
+    <script src="js/custom.js"></script>
+    <script>
+    </script>
+</body>
+
+</html>
