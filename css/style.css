@@ -188,9 +188,122 @@ tr:nth-child(even) {
 .action_btn {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.action_btn .view a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
 }
 
 /* ===============Table========= */
 /* ===========user========= */
 
 /* =========================Table-end============== */
+
+/* ============Dashboard-footer=============== */
+.dshboard_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.show_page {
+    margin-left: 40px;
+}
+
+.show_page span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #193441;
+    margin-right: 12px;
+}
+
+.show_page select {
+    background: #FFFFFF;
+    border: 0.5px solid #0077B6;
+    border-radius: 2px;
+    margin-right: 12px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #193441;
+
+}
+
+.show_page select option {
+    text-align: center;
+}
+
+.show_page select:focus {
+    outline: none;
+}
+
+.page_number {
+    margin-right: 40px;
+
+}
+
+.page_number button {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #193441;
+    border: none;
+    background: transparent;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: .3s all ease;
+    -webkit-transition: .3s all ease;
+    -moz-transition: .3s all ease;
+    -ms-transition: .3s all ease;
+    -o-transition: .3s all ease;
+}
+
+.page_number button:hover {
+    background: #0077B6;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #ffff;
+}
+
+.page_number button:focus {
+    outline: none;
+}
+
+.page_number button.btn_active {
+    background: #0077B6;
+    color: #fff;
+}
+
+.page_number span {
+    border-radius: 5px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: .3s all ease;
+    -webkit-transition: .3s all ease;
+    -moz-transition: .3s all ease;
+    -ms-transition: .3s all ease;
+    -o-transition: .3s all ease;
+}
+
+.page_number span:hover {
+    background: #0077B6;
+    color: #fff;
+}
+
+
+.page_active {
+    background: #0077B6;
+    color: #fff;
+}
