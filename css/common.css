@@ -162,14 +162,14 @@ a {
     bottom: 0;
 }
 
-.h_link {
+/* .h_link {
     transition: 1s all ease-in-out;
     -webkit-transition: 1s all ease-in-out;
     -moz-transition: 1s all ease-in-out;
     -ms-transition: 1s all ease-in-out;
     -o-transition: 1s all ease-in-out;
     opacity: 1;
-}
+} */
 
 .show_arrow {
     /* display: block; */
@@ -267,7 +267,7 @@ a {
 }
 
 .dashboard_right {
-    width: 80%;
+    width: 100%;
     background: #F5F5F5;
     padding-bottom: 50px;
 
