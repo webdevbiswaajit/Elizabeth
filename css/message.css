@@ -277,6 +277,7 @@
     top: 153px;
     display: none;
 
+
 }
 
 .msg_search_input {
@@ -317,6 +318,7 @@
     border-radius: 5px;
     padding: 6px 7px;
     width: 150px;
+    display: none;
 }
 
 .doth_menu {
