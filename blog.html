@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- =============Roboto font================ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,700&family=Titillium+Web:ital,wght@0,400;0,600;0,700;1,400&family=Zilla+Slab:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- =============Roboto font================ -->
+    <!-- =========Coustom-css============== -->
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/blog.css">
+    <!-- =========Coustom-css============== -->
+    <script src="https://cdn.ckeditor.com/ckeditor5/35.0.1/classic/ckeditor.js"></script>
+    <title>Dashboard</title>
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="nav_area">
+                <div class="nav_element">
+                    <div class="logo_area">
+                        <a href="#">
+                            <img src="./img/logo.png" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="menu_item">
+                        <div class="hamburger_icon">
+                            <button id="toggle">
+                                <iconify-icon icon="gg:menu"></iconify-icon>
+                            </button>
+                        </div>
+                        <div class="user_info">
+                            <div class="admin_info">
+                                <h3>Hon. JoBeth L. Coleby-Davis</h3>
+                                <small>Admin</small>
+                            </div>
+
+                            <div class="avatar">
+                                <a href="#"><img src="./img/avatar.jpg" alt=""></a>
+                            </div>
+                            <div class="message">
+                                <div class="message_icon">
+                                    <iconify-icon icon="ep:message"></iconify-icon>
+                                    <div class="message_number">
+                                        <span>1</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- ==========Header-end==== -->
+    <main>
+        <section>
+            <div id="dashboard_left">
+                <div class="desh_menu">
+                    <a href="./index.html">
+                        <div class="item_link">
+                            <div class="icone">
+                                <iconify-icon icon="bi:speedometer2"></iconify-icon>
+                                <div class="link_name">
+                                    <span class="h_link">Dashboard</span>
+                                </div>
+                            </div>
+                            <div class="arrow">
+                                <span class="show_arrow">
+                                    <iconify-icon icon="ep:arrow-right-bold"></iconify-icon>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="item_link">
+                            <div class="icone">
+                                <iconify-icon icon="bxs:user"></iconify-icon>
+                                <div class="link_name">
+                                    <span class="h_link">User</span>
+                                </div>
+                            </div>
+                            <div class="arrow">
+                                <span class="show_arrow">
+                                    <iconify-icon icon="ep:arrow-right-bold"></iconify-icon>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="item_link">
+                            <div class="icone">
+                                <iconify-icon icon="bxs:user-detail"></iconify-icon>
+                                <div class="link_name">
+                                    <span class="h_link">Blog</span>
+                                </div>
+                            </div>
+                            <div class="arrow">
+                                <span class="show_arrow">
+                                    <iconify-icon icon="ep:arrow-right-bold"></iconify-icon>
+                                </span>
+
+                            </div>
+                        </div>
+                    </a>
+                    <a href="./message.html">
+                        <div class="item_link">
+                            <div class="icone">
+                                <iconify-icon icon="ep:message"></iconify-icon>
+                                <div class="link_name">
+                                    <span class="h_link">Message</span>
+                                </div>
+                            </div>
+                            <div class="arrow">
+                                <span class="show_arrow">
+                                    <iconify-icon icon="ep:arrow-right-bold"></iconify-icon>
+                                </span>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="dashboard_area">
+                <div class="dashbord_middel" id="middle_none"></div>
+                <div class="dashboard_right">
+                    <div class="total_blog">
+                        <div class="blog_area">
+                            <div class="create_post">
+                                <div class="blog_head">
+                                    <div class="blog_left">
+                                        <h2>Create Blog Post</h2>
+                                    </div>
+                                    <div class="blog_right">
+                                        <button>
+                                            <iconify-icon icon="fluent:arrow-expand-24-filled"></iconify-icon>
+                                        </button>
+                                        <button>
+                                            <iconify-icon icon="fxemoji:cancellationx"></iconify-icon>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="text_form">
+                                    <div class="subject_input">
+                                        <input type="text" placeholder="Subject">
+                                    </div>
+                                    <div class="text3_blog">
+                                        <form action="">
+                                            <div id="editor">
+                                                <p>This is some sample content.</p>
+                                            </div>
+                                            <div class="blog_submit">
+                                                <div class="cancel_btn">
+                                                    <button type="reset">Cancel</button>
+                                                </div>
+                                                <div class="text_btn">
+                                                    <button>Submit<span>
+                                                            <iconify-icon icon="ic:baseline-send"></iconify-icon>
+                                                        </span>
+
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+                            <div class="show_blog">
+                                <div class="show">
+                                    <h2>Active Posts</h2>
+                                </div>
+                                <div class="recent_post">
+                                    <div class="post_head">
+                                        <div class="post_info">
+                                            <div class="icon_post">
+                                                <iconify-icon icon="charm:newspaper"></iconify-icon>
+                                            </div>
+                                            <div class="letest_news">
+                                                <span>Latest News</span>
+                                            </div>
+                                            <div class="post_date">
+                                                <span>Friday, May 27, 2022</span>
+                                            </div>
+                                        </div>
+                                        <div class="post_name">
+                                            <p>Lorem ipsum dolor sit amet, consec teturadipisc
+                                                ingelit.</p>
+                                        </div>
+                                    </div>
+                                    <div class="post_img">
+                                        <img src="./img/p_img.jpg" alt="">
+                                    </div>
+
+                                    <div class="post_content">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis egestas
+                                            lacus dolor, quisque eu commodo. Egestas feugiat
+                                            libero risus eu morbi. Gravida leo, elit, urna cursus nisl, elit vel. Ornare
+                                            blandit interdum urna tempor, lorem egestas
+                                            quam urna, mi.
+                                        </p>
+                                        <div class="post_footer">
+                                            <div class="p_footer_left">
+                                                <div class="like_area">
+                                                    <div class="p_like">
+                                                        <iconify-icon icon="bxs:like"></iconify-icon>
+                                                    </div>
+                                                    <div class="p_like_count">
+                                                        <p>2.6k</p>
+                                                    </div>
+                                                </div>
+                                                <div class="comment_area">
+                                                    <div class="p_like">
+                                                        <iconify-icon icon="fluent:comment-28-filled"></iconify-icon>
+                                                    </div>
+                                                    <div class="p_like_count">
+                                                        <p>1k</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="p_footer_right">
+                                                <div class="p_edit">
+                                                    <iconify-icon icon="clarity:note-edit-line"></iconify-icon>
+                                                </div>
+                                                <div class="p_delete">
+                                                    <iconify-icon icon="ant-design:delete-filled"></iconify-icon>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
+    <script src="./js/jquary.js"></script>
+    <script src="./js/custom.js"></script>
+    <script>
+        ClassicEditor
+            .create(document.querySelector('#editor'))
+            .catch(error => {
+                console.error(error);
+            });
+    </script>
+</body>
+
+</html>
