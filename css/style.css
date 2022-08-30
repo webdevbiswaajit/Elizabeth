@@ -116,12 +116,12 @@ a {
 
 /* ===============Table========= */
 .data_table {
-    width: 95%;
+    min-width: 95%;
     margin: 0 auto;
 }
 
 table {
-    width: 95%;
+    min-height: 95%;
     margin: 0 auto;
     border-collapse: collapse;
 }
@@ -164,6 +164,10 @@ table {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+}
+
+table {
+    width: 100%;
 }
 
 td,
@@ -306,4 +310,71 @@ tr:nth-child(even) {
 .page_active {
     background: #0077B6;
     color: #fff;
+}
+
+#hidebtn {
+    display: none;
+}
+
+/* =======================Responsive======================== */
+
+@media screen and (max-width: 640px) {
+
+
+    .dashboard_right {
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    .admin_info {
+        display: none;
+
+    }
+
+    .menu_item {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .logo_area {
+        width: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #middle_none.vanice {
+        width: 100px;
+    }
+
+    .dashboard_content {
+        width: fit-content;
+        margin-left: 30px;
+    }
+
+    .dashbord_middel {
+        width: 0%;
+    }
+
+    #dashboard_left {
+        display: none;
+        transition: all 1s !important;
+        -webkit-transition: all 1s !important;
+        -moz-transition: all 1s !important;
+        -ms-transition: all 1s !important;
+        -o-transition: all 1s !important;
+    }
+
+    #toggle {
+        display: none;
+    }
+
+    #hidebtn {
+        display: inline-block;
+    }
+
+
 }

@@ -10,6 +10,7 @@ toggle.onclick = function () {
 };
 
 // =====================sideBarLink===============
+
 $(document).ready(function () {
   $("#toggle").click(function () {
     $(".h_link").fadeToggle("slow");
@@ -22,6 +23,8 @@ $(document).ready(function () {
 });
 // =====================searchBox===========
 
-// =================ReportBox=====================
-
-// =================Editor============
+$(document).ready(function () {
+  $("#hidebtn").click(function () {
+    $("#dashboard_left ").toggle();
+  });
+});
