@@ -164,27 +164,6 @@ a {
     z-index: 111111;
 }
 
-/* .h_link {
-    transition: 1s all ease-in-out;
-    -webkit-transition: 1s all ease-in-out;
-    -moz-transition: 1s all ease-in-out;
-    -ms-transition: 1s all ease-in-out;
-    -o-transition: 1s all ease-in-out;
-    opacity: 1;
-} */
-
-.show_arrow {
-    /* display: block; */
-    transition: .5s all ease-in-out;
-    -webkit-transition: .5s all ease-in-out;
-    -moz-transition: .5s all ease-in-out;
-    -ms-transition: .5s all ease-in-out;
-    -o-transition: .5s all ease-in-out;
-    opacity: 1;
-}
-
-
-
 #dashboard_left.active {
     padding-top: 30px;
     width: 80px;
