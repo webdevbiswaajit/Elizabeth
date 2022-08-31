@@ -1,34 +1,32 @@
-/* ==============User-details============= */
+.user_text {
+    padding: 15px 50px;
+}
+
+.user_text p {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #0077B6;
+}
+
 .user_details {
     display: flex;
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 30px;
-    padding-bottom: 70px;
+    padding: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.bio_dtails {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-bottom: 8px;
+
 }
 
 .user_basic_info {
-    width: 50%;
     display: flex;
     align-items: center;
-    height: 80px;
-
-}
-
-.user_bio {
-    width: 50%;
-    border-left: 1px dashed #193441;
-
-
-}
-
-.user_basic_info {
-    display: flex;
-
-}
-
-.user_img {
-    margin-right: 30px;
 }
 
 .user_img img {
@@ -39,6 +37,10 @@
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+}
+
+.basic_info {
+    margin-left: 30px;
 }
 
 .basic_info h2 {
@@ -54,15 +56,11 @@
     font-size: 16px;
     line-height: 19px;
     color: #193441;
+
 }
 
-.bio_dtails {
-    display: flex;
-    margin-left: 40px;
-}
-
-.info_indicate {
-    width: 50%;
+.indicate_value p {
+    text-align: left;
 }
 
 .info_indicate h3 {
@@ -70,14 +68,57 @@
     font-size: 16px;
     line-height: 19px;
     color: #2C3E50;
-    margin-bottom: 8px;
+}
+
+.user_bio {
+    border-left: 2px dotted #193441;
+    padding-left: 40px;
 }
 
 
 
-.indicate_value p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: #2C3E50;
+
+
+@media screen and (max-width: 640px) {
+    .user_basic_info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .basic_info {
+        text-align: center;
+    }
+
+    .user_details {
+        display: flex;
+        padding: 30px;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .user_text p {
+        text-align: center;
+    }
+
+    .user_full_bio.dashboard_right {
+        height: 100vh;
+    }
+
+    .user_full_bio .dashboard_content {
+        margin-left: 0;
+        margin: 120px auto;
+
+
+
+    }
+
+    .user_bio {
+        border-left: none;
+        padding-left: 0;
+        width: 100%;
+        margin-top: 30px;
+
+    }
 }

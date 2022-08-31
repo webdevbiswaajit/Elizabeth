@@ -5,7 +5,12 @@
     padding: 20px 40px;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
+    background: #fff;
 
+}
+
+.dashboard_content {
+    width: 60%;
 }
 
 .msg_right {
@@ -189,6 +194,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 25px 30px;
+    background: #fff;
 }
 
 .attach_file {
@@ -361,4 +367,127 @@
     right: 100%;
     top: 30px;
     display: none;
+}
+
+
+
+/* ===========================Chat_area=================== */
+.message_area {
+    display: flex;
+    background: #F5F5F5;
+}
+
+.chat_left {
+    width: 30%;
+    margin: 0px 20px 0px 20px;
+}
+
+.chat_right {
+    width: 70%;
+    margin-right: 30px;
+}
+
+.dashboard_content {
+    width: 100%;
+}
+
+/* =====================Chat=================== */
+.chat_left {
+    background: #fff;
+}
+
+.chat_head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffff;
+    padding: 16px 25px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px 5px 0px 0px;
+}
+
+.chat_head_left h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #0077B6;
+
+}
+
+.chat_head_right button {
+    color: #0077B6;
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 5px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+.chat_search {
+    padding: 25px;
+
+}
+
+.chat_search input {
+    border: none;
+    width: 100%;
+    background: #E9ECEF;
+    border-radius: 5px;
+    padding: 10px 15px;
+
+}
+
+.chat_search input:focus {
+    outline: none;
+}
+
+.chat_body {
+    height: 200px;
+}
+
+.chat_body ul {
+    padding: 20px
+}
+
+.chat_item {
+    display: flex;
+    align-items: center;
+
+}
+
+.chat_img {
+    width: 35px;
+    height: 35px;
+}
+
+
+
+.chat_img img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+}
+
+.chat_user p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #193441;
+    margin-left: 20px;
+}
+
+.chat_item {
+    padding: 10px 5px;
+    ;
+}
+
+.chat_item:hover {
+    background-color: #CAF0F8;
+
+
 }

@@ -30,6 +30,11 @@
                         <a href="#">
                             <img src="./img/logo.png" alt="Logo">
                         </a>
+                        <div class="hamburger_icon">
+                            <button id="hidebtn">
+                                <iconify-icon icon="gg:menu"></iconify-icon>
+                            </button>
+                        </div>
                     </div>
                     <div class="menu_item">
                         <div class="hamburger_icon">
@@ -37,6 +42,7 @@
                                 <iconify-icon icon="gg:menu"></iconify-icon>
                             </button>
                         </div>
+
                         <div class="user_info">
                             <div class="admin_info">
                                 <h3>Hon. JoBeth L. Coleby-Davis</h3>
@@ -48,7 +54,9 @@
                             </div>
                             <div class="message">
                                 <div class="message_icon">
-                                    <iconify-icon icon="ep:message"></iconify-icon>
+                                    <a href="./message.html">
+                                        <iconify-icon icon="ep:message"></iconify-icon>
+                                    </a>
                                     <div class="message_number">
                                         <span>1</span>
                                     </div>
@@ -135,200 +143,271 @@
             <div class="dashboard_area">
                 <div class="dashbord_middel" id="middle_none"></div>
                 <div class="dashboard_right">
-                    <div class="chat_list">
-                        ljksdfljksldfjla'sdfjalsjdf
-                    </div>
                     <div class="dashboard_content">
-                        <div class="message_head">
-                            <div class="msg_left">
-                                <div class="pro_pic">
-                                    <img src="./img/propic.jpg" alt="">
+                        <div class="message_area">
+                            <div class="chat_left">
+                                <div class="chat_head">
+                                    <div class="chat_head_left">
+                                        <h2>Chat</h2>
+                                    </div>
+                                    <div class="chat_head_right">
+                                        <button>
+                                            <iconify-icon icon="fluent:add-square-24-filled"></iconify-icon>
+                                        </button>
+                                    </div>
                                 </div>
-                                <div class="pro_info">
-                                    <h3>Ishtiuq Ahmed Chowhdury</h3>
-                                    <small>Online</small>
+                                <div class="chat_search">
+                                    <input type="text" placeholder="Search here">
+                                </div>
+                                <div class="chat_body">
+                                    <ul>
+                                        <li><a href="#">
+                                                <div class="chat_item">
+                                                    <div class="chat_img">
+                                                        <img src="./img/propic.jpg" alt="">
+                                                    </div>
+                                                    <div class="chat_user">
+                                                        <p>Ishtiuq Ahmed Chowhdury</p>
+                                                    </div>
+                                                </div>
+                                            </a></li>
+                                        <li><a href="#">
+                                                <div class="chat_item">
+                                                    <div class="chat_img">
+                                                        <img src="./img/propic.jpg" alt="">
+                                                    </div>
+                                                    <div class="chat_user">
+                                                        <p>Ishtiuq Ahmed Chowhdury</p>
+                                                    </div>
+                                                </div>
+                                            </a></li>
+                                        <li><a href="#">
+                                                <div class="chat_item">
+                                                    <div class="chat_img">
+                                                        <img src="./img/propic.jpg" alt="">
+                                                    </div>
+                                                    <div class="chat_user">
+                                                        <p>Ishtiuq Ahmed Chowhdury</p>
+                                                    </div>
+                                                </div>
+                                            </a></li>
+                                        <li><a href="#">
+                                                <div class="chat_item">
+                                                    <div class="chat_img">
+                                                        <img src="./img/propic.jpg" alt="">
+                                                    </div>
+                                                    <div class="chat_user">
+                                                        <p>Ishtiuq Ahmed Chowhdury</p>
+                                                    </div>
+                                                </div>
+                                            </a></li>
+                                        <li><a href="#">
+                                                <div class="chat_item">
+                                                    <div class="chat_img">
+                                                        <img src="./img/propic.jpg" alt="">
+                                                    </div>
+                                                    <div class="chat_user">
+                                                        <p>Ishtiuq Ahmed Chowhdury</p>
+                                                    </div>
+                                                </div>
+                                            </a></li>
+                                    </ul>
                                 </div>
                             </div>
-                            <div class="msg_right">
-                                <div class="msg_search_area">
-                                    <button id="msg_search">
-                                        <iconify-icon icon="akar-icons:search"></iconify-icon>
-                                    </button>
-                                    <div class="msg_search_input">
-                                        <input type="text" placeholder="Search conversion">
-                                    </div>
-                                </div>
-                                <div class="msg_report_area">
-                                    <button id="report_info">
-                                        <iconify-icon icon="ant-design:info-circle-outlined"></iconify-icon>
-                                    </button>
-
-                                    <div class="msg_tool_tip">
-                                        <p>Report a problem</p>
-                                    </div>
-
-                                </div>
-
-                                <div class="msg_menu_area">
-                                    <button id="msg_menu">
-                                        <iconify-icon icon="charm:menu-kebab"></iconify-icon>
-                                    </button>
-                                    <div class="doth_menu">
-                                        <ul class="doth">
-                                            <li><a href="#">Select</a></li>
-                                            <li><a href="#">Mark</a></li>
-                                            <li><a href="#">Delete</a></li>
-                                            <li><a href="#">View profile</a></li>
-                                            <li><a href="#">Mute</a></li>
-                                            <li><a href="#">Search</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="message_box">
-                            <div class="give_msg">
-
-                                <div class="msg_pic">
-                                    <img src="./img/propic.jpg" alt="">
-                                    <div class="give_text">
-                                        <div class="converson">
-                                            <p>Good morning</p>
+                            <div class="chat_right">
+                                <div class="message_head">
+                                    <div class="msg_left">
+                                        <div class="pro_pic">
+                                            <img src="./img/propic.jpg" alt="">
                                         </div>
-                                        <div class="give_msg_time">
-                                            <p><span>12</span> <span>June at</span> <span>07:00 AM</span>
-                                            </p>
+                                        <div class="pro_info">
+                                            <h3>Ishtiuq Ahmed Chowhdury</h3>
+                                            <small>Online</small>
                                         </div>
-
                                     </div>
-
-                                </div>
-                            </div>
-                            <div class="replay_msg">
-                                <div class="relay_text">
-                                    <div class="replay_msg_time">
-                                        <p><span>12</span> <span>June at</span> <span>07:00 AM</span>
-                                        </p>
-                                    </div>
-                                    <div class="relay_converson">
-                                        <p>Good morning, How are you? What about our next meeting?</p>
-
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="give_msg">
-
-                                <div class="msg_pic">
-                                    <img src="./img/propic.jpg" alt="">
-                                    <div class="give_text">
-                                        <div class="converson">
-                                            <p>Good morning</p>
+                                    <div class="msg_right">
+                                        <div class="msg_search_area">
+                                            <button id="msg_search">
+                                                <iconify-icon icon="akar-icons:search"></iconify-icon>
+                                            </button>
+                                            <div class="msg_search_input">
+                                                <input type="text" placeholder="Search conversion">
+                                            </div>
                                         </div>
-                                        <div class="give_msg_time">
-                                            <p><span>12</span> <span>June at</span> <span>07:00 AM</span>
-                                            </p>
-                                        </div>
+                                        <div class="msg_report_area">
+                                            <button id="report_info">
+                                                <iconify-icon icon="ant-design:info-circle-outlined"></iconify-icon>
+                                            </button>
 
-                                    </div>
+                                            <div class="msg_tool_tip">
+                                                <p>Report a problem</p>
+                                            </div>
 
-                                </div>
-                            </div>
-                            <div class="replay_msg">
-                                <div class="relay_text">
-                                    <div class="replay_msg_time">
-                                        <p><span>12</span> <span>June at</span> <span>07:00 AM</span>
-                                        </p>
-                                    </div>
-                                    <div class="relay_converson">
-                                        <p>Good morning, How are you? What about our next meeting?</p>
-
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="replay_msg">
-                                <div class="relay_text">
-                                    <div class="replay_msg_time">
-                                        <p><span>12</span> <span>June at</span> <span>07:00 AM</span>
-                                        </p>
-                                    </div>
-                                    <div class="relay_converson">
-                                        <p>Good morning, How are you? What about our next meeting?</p>
-
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="give_msg">
-
-                                <div class="msg_pic">
-                                    <img src="./img/propic.jpg" alt="">
-                                    <div class="give_text">
-                                        <div class="converson">
-                                            <p>Good morning</p>
-                                        </div>
-                                        <div class="give_msg_time">
-                                            <p><span>12</span> <span>June at</span> <span>07:00 AM</span>
-                                            </p>
                                         </div>
 
+                                        <div class="msg_menu_area">
+                                            <button id="msg_menu">
+                                                <iconify-icon icon="charm:menu-kebab"></iconify-icon>
+                                            </button>
+                                            <div class="doth_menu">
+                                                <ul class="doth">
+                                                    <li><a href="#">Select</a></li>
+                                                    <li><a href="#">Mark</a></li>
+                                                    <li><a href="#">Delete</a></li>
+                                                    <li><a href="#">View profile</a></li>
+                                                    <li><a href="#">Mute</a></li>
+                                                    <li><a href="#">Search</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="message_box">
+                                    <div class="give_msg">
+
+                                        <div class="msg_pic">
+                                            <img src="./img/propic.jpg" alt="">
+                                            <div class="give_text">
+                                                <div class="converson">
+                                                    <p>Good morning</p>
+                                                </div>
+                                                <div class="give_msg_time">
+                                                    <p><span>12</span> <span>June at</span> <span>07:00 AM</span>
+                                                    </p>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="replay_msg">
+                                        <div class="relay_text">
+                                            <div class="replay_msg_time">
+                                                <p><span>12</span> <span>June at</span> <span>07:00 AM</span>
+                                                </p>
+                                            </div>
+                                            <div class="relay_converson">
+                                                <p>Good morning, How are you? What about our next meeting?</p>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="give_msg">
+
+                                        <div class="msg_pic">
+                                            <img src="./img/propic.jpg" alt="">
+                                            <div class="give_text">
+                                                <div class="converson">
+                                                    <p>Good morning</p>
+                                                </div>
+                                                <div class="give_msg_time">
+                                                    <p><span>12</span> <span>June at</span> <span>07:00 AM</span>
+                                                    </p>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="replay_msg">
+                                        <div class="relay_text">
+                                            <div class="replay_msg_time">
+                                                <p><span>12</span> <span>June at</span> <span>07:00 AM</span>
+                                                </p>
+                                            </div>
+                                            <div class="relay_converson">
+                                                <p>Good morning, How are you? What about our next meeting?</p>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="replay_msg">
+                                        <div class="relay_text">
+                                            <div class="replay_msg_time">
+                                                <p><span>12</span> <span>June at</span> <span>07:00 AM</span>
+                                                </p>
+                                            </div>
+                                            <div class="relay_converson">
+                                                <p>Good morning, How are you? What about our next meeting?</p>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="give_msg">
+
+                                        <div class="msg_pic">
+                                            <img src="./img/propic.jpg" alt="">
+                                            <div class="give_text">
+                                                <div class="converson">
+                                                    <p>Good morning</p>
+                                                </div>
+                                                <div class="give_msg_time">
+                                                    <p><span>12</span> <span>June at</span> <span>07:00 AM</span>
+                                                    </p>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="give_msg">
+
+                                        <div class="msg_pic">
+                                            <img src="./img/propic.jpg" alt="">
+                                            <div class="give_text">
+                                                <div class="converson">
+                                                    <p>Good morning</p>
+                                                </div>
+                                                <div class="give_msg_time">
+                                                    <p><span>12</span> <span>June at</span> <span>07:00 AM</span>
+                                                    </p>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
                                     </div>
 
                                 </div>
-                            </div>
-                            <div class="give_msg">
 
-                                <div class="msg_pic">
-                                    <img src="./img/propic.jpg" alt="">
-                                    <div class="give_text">
-                                        <div class="converson">
-                                            <p>Good morning</p>
-                                        </div>
-                                        <div class="give_msg_time">
-                                            <p><span>12</span> <span>June at</span> <span>07:00 AM</span>
-                                            </p>
-                                        </div>
 
-                                    </div>
-
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="message_footer">
-                            <div class="attach_file">
-                                <div class="file">
-                                    <button>
-                                        <iconify-icon icon="akar-icons:attach"></iconify-icon>
-                                    </button>
-                                </div>
-                                <div class="input_link">
-                                    <button>
-                                        <iconify-icon icon="akar-icons:link-chain"></iconify-icon>
-                                    </button>
-
-                                </div>
-                                <div class="img_input">
-                                    <button>
-                                        <iconify-icon icon="bxs:image-alt"></iconify-icon>
-                                    </button>
-
-                                </div>
-
-                            </div>
-                            <div class="message_input">
-                                <form action="">
-                                    <div class="msg_form">
-                                        <input type="text" placeholder="Type your message">
-                                        <div class="sub_btn">
+                                <div class="message_footer">
+                                    <div class="attach_file">
+                                        <div class="file">
                                             <button>
-                                                <iconify-icon icon="fluent:send-16-filled"></iconify-icon>
+                                                <iconify-icon icon="akar-icons:attach"></iconify-icon>
                                             </button>
                                         </div>
+                                        <div class="input_link">
+                                            <button>
+                                                <iconify-icon icon="akar-icons:link-chain"></iconify-icon>
+                                            </button>
+
+                                        </div>
+                                        <div class="img_input">
+                                            <button>
+                                                <iconify-icon icon="bxs:image-alt"></iconify-icon>
+                                            </button>
+
+                                        </div>
+
                                     </div>
-                                </form>
+                                    <div class="message_input">
+                                        <form action="">
+                                            <div class="msg_form">
+                                                <input type="text" placeholder="Type your message">
+                                                <div class="sub_btn">
+                                                    <button>
+                                                        <iconify-icon icon="fluent:send-16-filled"></iconify-icon>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
