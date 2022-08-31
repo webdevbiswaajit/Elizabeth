@@ -262,7 +262,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="message_box">
+                                <div class="message_box" id="msg_scroll">
                                     <div class="give_msg">
 
                                         <div class="msg_pic">
@@ -370,11 +370,18 @@
 
                                         </div>
                                     </div>
-
+                                    <div class="give_msg"></div>
+                                    <div id="preview_item">
+                                        <div class="img_prieview">
+                                            <img src="./img/propic.jpg" id="imgPreview" alt="">
+                                        </div>
+                                    </div>
                                 </div>
 
 
                                 <div class="message_footer">
+
+
                                     <div class="attach_file">
                                         <div class="file">
                                             <button>
@@ -386,11 +393,13 @@
                                                 <iconify-icon icon="akar-icons:link-chain"></iconify-icon>
                                             </button>
 
+
                                         </div>
                                         <div class="img_input">
-                                            <button>
+                                            <button id="OpenImgUpload">
                                                 <iconify-icon icon="bxs:image-alt"></iconify-icon>
                                             </button>
+                                            <input type="file" id="imgupload" style="display:none" />
 
                                         </div>
 
@@ -429,6 +438,31 @@
     <script src="./js/jquary.js"></script>
     <script src="js/custom.js"></script>
     <script>
+        $('#OpenImgUpload').click(function () { $('#imgupload').trigger('click'); });
+
+        $(document).ready(() => {
+            $("#imgupload").change(function () {
+                const file = this.files[0];
+                if (file) {
+                    let reader = new FileReader();
+                    reader.onload = function (event) {
+                        $("#imgPreview")
+                            .attr("src", event.target.result);
+                    };
+                    reader.readAsDataURL(file);
+                }
+            });
+        });
+
+
+        $('#OpenImgUpload').click(function () {
+            $('#preview_item').fadeToggle();
+        });
+
+
+        //scroll to the bottom of "#myDiv"
+        $("#msg_scroll").animate({ scrollTop: $('#msg_scroll').prop("scrollHeight") });
+
     </script>
 </body>
 

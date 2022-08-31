@@ -491,3 +491,32 @@
 
 
 }
+
+
+.message_footer {
+    position: relative;
+}
+
+#preview_item {
+    background: #193441;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    opacity: .9;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    display: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+
+}
+
+.img_prieview img {
+    width: 150px;
+    height: 100px;
+
+}
