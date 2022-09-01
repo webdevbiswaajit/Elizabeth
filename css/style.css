@@ -118,6 +118,9 @@ a {
 .data_table {
     min-width: 95%;
     margin: 0 auto;
+    padding-left: 60px;
+    padding-right: 60px;
+
 }
 
 table {

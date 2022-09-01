@@ -73,7 +73,7 @@
 
     <!-- ==========Header-end==== -->
     <main>
-        <section>
+        <section class="message_page">
             <div id="dashboard_left">
                 <div class="desh_menu">
                     <a href="./index.html">
@@ -91,7 +91,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="#">
+                    <a href="./view.html">
                         <div class="item_link">
                             <div class="icone">
                                 <iconify-icon icon="bxs:user"></iconify-icon>
@@ -106,7 +106,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="#">
+                    <a href="./blog.html">
                         <div class="item_link">
                             <div class="icone">
                                 <iconify-icon icon="bxs:user-detail"></iconify-icon>
@@ -230,9 +230,8 @@
                                             <button id="msg_search">
                                                 <iconify-icon icon="akar-icons:search"></iconify-icon>
                                             </button>
-                                            <div class="msg_search_input">
-                                                <input type="text" placeholder="Search conversion">
-                                            </div>
+                                            <input type="text" class="msg_search_input hidden"
+                                                placeholder="Search conversion">
                                         </div>
                                         <div class="msg_report_area">
                                             <button id="report_info">
@@ -246,11 +245,11 @@
                                         </div>
 
                                         <div class="msg_menu_area">
-                                            <button id="msg_menu">
+                                            <button id="msg_menu" class="">
                                                 <iconify-icon icon="charm:menu-kebab"></iconify-icon>
                                             </button>
-                                            <div class="doth_menu">
-                                                <ul class="doth">
+                                            <div class="doth_menu hidden">
+                                                <ul class=" doth">
                                                     <li><a href="#">Select</a></li>
                                                     <li><a href="#">Mark</a></li>
                                                     <li><a href="#">Delete</a></li>
@@ -438,30 +437,11 @@
     <script src="./js/jquary.js"></script>
     <script src="js/custom.js"></script>
     <script>
-        $('#OpenImgUpload').click(function () { $('#imgupload').trigger('click'); });
-
-        $(document).ready(() => {
-            $("#imgupload").change(function () {
-                const file = this.files[0];
-                if (file) {
-                    let reader = new FileReader();
-                    reader.onload = function (event) {
-                        $("#imgPreview")
-                            .attr("src", event.target.result);
-                    };
-                    reader.readAsDataURL(file);
-                }
-            });
-        });
 
 
-        $('#OpenImgUpload').click(function () {
-            $('#preview_item').fadeToggle();
-        });
+        // ==================
 
 
-        //scroll to the bottom of "#myDiv"
-        $("#msg_scroll").animate({ scrollTop: $('#msg_scroll').prop("scrollHeight") });
 
     </script>
 </body>
