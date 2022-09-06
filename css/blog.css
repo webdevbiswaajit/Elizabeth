@@ -252,6 +252,9 @@
     .blog_area {
         display: block;
         padding-top: 40px;
+        min-width: 100%;
+        overflow-x: scroll;
+        background: #fff;
     }
 
     .create_post {
