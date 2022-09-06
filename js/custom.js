@@ -176,3 +176,13 @@ function ImgUpload() {
     $(this).parent().parent().remove();
   });
 }
+
+// ========================Ckd Editor====================
+
+CKEDITOR.replace("editor1", {
+  height: 150,
+  width: 560,
+  removeButtons: "PasteFromWord",
+  removeButtons: "Source",
+  removeButtons: "Maximize",
+});

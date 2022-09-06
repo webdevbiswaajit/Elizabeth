@@ -16,9 +16,9 @@
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/blog.css">
     <!-- =========Coustom-css============== -->
-    <script src="https://cdn.ckeditor.com/ckeditor5/35.0.1/classic/ckeditor.js"></script>
-    <title>Dashboard</title>
 
+    <title>Dashboard</title>
+    <script src="https://cdn.ckeditor.com/4.19.1/standard-all/ckeditor.js"></script>
 </head>
 
 <body>
@@ -167,7 +167,7 @@
                                     <div class="text3_blog">
                                         <form action="">
                                             <div id="editor">
-                                                <p>This is some sample content.</p>
+                                                <textarea cols="80" id="editor1" name="editor1" rows="10"></textarea>
                                             </div>
                                             <div class="blog_submit">
                                                 <div class="cancel_btn">
@@ -271,11 +271,8 @@
     <script src="./js/jquary.js"></script>
     <script src="./js/custom.js"></script>
     <script>
-        ClassicEditor
-            .create(document.querySelector('#editor'))
-            .catch(error => {
-                console.error(error);
-            });
+
+
     </script>
 </body>
 

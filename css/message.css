@@ -669,3 +669,17 @@
     position: relative;
     padding-bottom: 100%;
 }
+
+/* ====================ckd Editor================== */
+#cke_editor1 {
+    width: 500px !important;
+}
+
+.cke_button__maximize_icon {
+
+    display: none !important;
+}
+
+#cke_31 {
+    display: none !important;
+}
